@@ -3,6 +3,9 @@
 .projects/
 .backend-artifacts/
 .agents/
+.impeccable/
+PRODUCT.md
+DESIGN.md
 .claude/
 .cursor/
 .git/

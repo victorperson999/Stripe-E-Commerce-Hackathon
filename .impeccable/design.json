@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T01:30:33.900663+00:00",
+  "title": "Design System: Tonight",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Mineral Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0012 145.5)",
+          "oklch(26% 0.0020 145.5)",
+          "oklch(38% 0.0029 145.5)",
+          "oklch(49% 0.0034 145.5)",
+          "oklch(61% 0.0034 145.5)",
+          "oklch(72% 0.0027 145.5)",
+          "oklch(84% 0.0017 145.5)",
+          "oklch(95% 0.0005 145.5)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(26% 0.0000 89.9)",
+          "oklch(38% 0.0000 89.9)",
+          "oklch(49% 0.0000 89.9)",
+          "oklch(61% 0.0000 89.9)",
+          "oklch(72% 0.0000 89.9)",
+          "oklch(84% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "gallery": {
+        "role": "neutral",
+        "displayName": "Gallery Mist",
+        "tonalRamp": [
+          "oklch(15% 0.0032 161.3)",
+          "oklch(26% 0.0055 161.3)",
+          "oklch(38% 0.0078 161.3)",
+          "oklch(49% 0.0092 161.3)",
+          "oklch(61% 0.0092 161.3)",
+          "oklch(72% 0.0073 161.3)",
+          "oklch(84% 0.0046 161.3)",
+          "oklch(95% 0.0014 161.3)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Forest Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0150 181.1)",
+          "oklch(26% 0.0258 181.1)",
+          "oklch(38% 0.0365 181.1)",
+          "oklch(49% 0.0430 181.1)",
+          "oklch(61% 0.0430 181.1)",
+          "oklch(72% 0.0344 181.1)",
+          "oklch(84% 0.0215 181.1)",
+          "oklch(95% 0.0064 181.1)"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Muted Sage Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0082 168.5)",
+          "oklch(26% 0.0140 168.5)",
+          "oklch(38% 0.0199 168.5)",
+          "oklch(49% 0.0234 168.5)",
+          "oklch(61% 0.0234 168.5)",
+          "oklch(72% 0.0187 168.5)",
+          "oklch(84% 0.0117 168.5)",
+          "oklch(95% 0.0035 168.5)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Pale Sage Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0063 164.6)",
+          "oklch(26% 0.0108 164.6)",
+          "oklch(38% 0.0153 164.6)",
+          "oklch(49% 0.0180 164.6)",
+          "oklch(61% 0.0180 164.6)",
+          "oklch(72% 0.0144 164.6)",
+          "oklch(84% 0.0090 164.6)",
+          "oklch(95% 0.0027 164.6)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0108 158.2)",
+          "oklch(26% 0.0185 158.2)",
+          "oklch(38% 0.0262 158.2)",
+          "oklch(49% 0.0308 158.2)",
+          "oklch(61% 0.0308 158.2)",
+          "oklch(72% 0.0246 158.2)",
+          "oklch(84% 0.0154 158.2)",
+          "oklch(95% 0.0046 158.2)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0210 177.6)",
+          "oklch(26% 0.0360 177.6)",
+          "oklch(38% 0.0510 177.6)",
+          "oklch(49% 0.0601 177.6)",
+          "oklch(61% 0.0601 177.6)",
+          "oklch(72% 0.0480 177.6)",
+          "oklch(84% 0.0300 177.6)",
+          "oklch(95% 0.0090 177.6)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep Teal Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0170 176.3)",
+          "oklch(26% 0.0292 176.3)",
+          "oklch(38% 0.0413 176.3)",
+          "oklch(49% 0.0486 176.3)",
+          "oklch(61% 0.0486 176.3)",
+          "oklch(72% 0.0389 176.3)",
+          "oklch(84% 0.0243 176.3)",
+          "oklch(95% 0.0073 176.3)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Soft Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0070 164.6)",
+          "oklch(26% 0.0121 164.6)",
+          "oklch(38% 0.0171 164.6)",
+          "oklch(49% 0.0201 164.6)",
+          "oklch(61% 0.0201 164.6)",
+          "oklch(72% 0.0161 164.6)",
+          "oklch(84% 0.0100 164.6)",
+          "oklch(95% 0.0030 164.6)"
+        ]
+      },
+      "danger": {
+        "role": "semantic",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.0420 28.3)",
+          "oklch(26% 0.0720 28.3)",
+          "oklch(38% 0.1020 28.3)",
+          "oklch(49% 0.1200 28.3)",
+          "oklch(61% 0.1200 28.3)",
+          "oklch(72% 0.0960 28.3)",
+          "oklch(84% 0.0600 28.3)",
+          "oklch(95% 0.0180 28.3)"
+        ]
+      },
+      "danger-bg": {
+        "role": "semantic",
+        "displayName": "Error Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0060 35.3)",
+          "oklch(26% 0.0103 35.3)",
+          "oklch(38% 0.0146 35.3)",
+          "oklch(49% 0.0172 35.3)",
+          "oklch(61% 0.0172 35.3)",
+          "oklch(72% 0.0137 35.3)",
+          "oklch(84% 0.0086 35.3)",
+          "oklch(95% 0.0026 35.3)"
+        ]
+      },
+      "focus": {
+        "role": "semantic",
+        "displayName": "Ochre Focus",
+        "tonalRamp": [
+          "oklch(15% 0.0381 74.2)",
+          "oklch(26% 0.0653 74.2)",
+          "oklch(38% 0.0925 74.2)",
+          "oklch(49% 0.1088 74.2)",
+          "oklch(61% 0.1088 74.2)",
+          "oklch(72% 0.0870 74.2)",
+          "oklch(84% 0.0544 74.2)",
+          "oklch(95% 0.0163 74.2)"
+        ]
+      },
+      "brand-dot": {
+        "role": "neutral",
+        "displayName": "Moss Dot",
+        "tonalRamp": [
+          "oklch(15% 0.0188 129.7)",
+          "oklch(26% 0.0323 129.7)",
+          "oklch(38% 0.0458 129.7)",
+          "oklch(49% 0.0538 129.7)",
+          "oklch(61% 0.0538 129.7)",
+          "oklch(72% 0.0431 129.7)",
+          "oklch(84% 0.0269 129.7)",
+          "oklch(95% 0.0081 129.7)"
+        ]
+      },
+      "brand-caption": {
+        "role": "neutral",
+        "displayName": "Light Sage Caption",
+        "tonalRamp": [
+          "oklch(15% 0.0053 164.7)",
+          "oklch(26% 0.0091 164.7)",
+          "oklch(38% 0.0129 164.7)",
+          "oklch(49% 0.0152 164.7)",
+          "oklch(61% 0.0152 164.7)",
+          "oklch(72% 0.0122 164.7)",
+          "oklch(84% 0.0076 164.7)",
+          "oklch(95% 0.0023 164.7)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0072 160.7)",
+          "oklch(26% 0.0124 160.7)",
+          "oklch(38% 0.0176 160.7)",
+          "oklch(49% 0.0207 160.7)",
+          "oklch(61% 0.0207 160.7)",
+          "oklch(72% 0.0166 160.7)",
+          "oklch(84% 0.0103 160.7)",
+          "oklch(95% 0.0031 160.7)"
+        ]
+      },
+      "accent-active": {
+        "role": "primary",
+        "displayName": "Deep Teal Active",
+        "tonalRamp": [
+          "oklch(15% 0.0150 175.3)",
+          "oklch(26% 0.0257 175.3)",
+          "oklch(38% 0.0364 175.3)",
+          "oklch(49% 0.0428 175.3)",
+          "oklch(61% 0.0428 175.3)",
+          "oklch(72% 0.0343 175.3)",
+          "oklch(84% 0.0214 175.3)",
+          "oklch(95% 0.0064 175.3)"
+        ]
+      },
+      "accent-disabled": {
+        "role": "primary",
+        "displayName": "Muted Teal Disabled",
+        "tonalRamp": [
+          "oklch(15% 0.0142 173.2)",
+          "oklch(26% 0.0244 173.2)",
+          "oklch(38% 0.0345 173.2)",
+          "oklch(49% 0.0406 173.2)",
+          "oklch(61% 0.0406 173.2)",
+          "oklch(72% 0.0325 173.2)",
+          "oklch(84% 0.0203 173.2)",
+          "oklch(95% 0.0061 173.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Studio Heading",
+        "purpose": "Intro heading; shrinks at 900px and 520px."
+      },
+      "wordmark": {
+        "displayName": "Tonight Wordmark",
+        "purpose": "Masthead brand."
+      },
+      "annotation": {
+        "displayName": "Annotation",
+        "purpose": "Captions, hints, counters, footer."
+      }
+    },
+    "shadows": [
+      {
+        "name": "poster-mount",
+        "value": "0 12px 24px -10px #183c3650",
+        "purpose": "Soft lift beneath the portrait only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "160ms ease",
+        "purpose": "Field border, style outline, and download background transitions."
+      },
+      {
+        "name": "primary-transition",
+        "value": "180ms ease",
+        "purpose": "Primary button background."
+      },
+      {
+        "name": "indeterminate-loading",
+        "value": "1.6s ease-in-out infinite alternate",
+        "purpose": "Loading strip moves from translateX(0) to translateX(185%); reduced motion removes animation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-poster-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-columns-max",
+        "value": "1100px"
+      },
+      {
+        "name": "stacked-max",
+        "value": "900px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Generate button",
+      "kind": "button",
+      "description": "Full-width action with deepening hover and active states.",
+      "html": "<button class=\"ds-primary\"><span>Generate poster</span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary {font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;min-height:54px;padding:14px 18px;border:0;border-radius:6px;background:var(--accent, #20564b);color:white;font-size:.9375rem;font-weight:600;cursor:pointer;transition:background 180ms ease;} .ds-primary:hover:not(:disabled){background:var(--accent-hover, #153e35);} .ds-primary:active:not(:disabled){background:#0d3028;} .ds-primary:disabled{background:#49695f;cursor:not-allowed;} .ds-primary:focus-visible { outline:3px solid var(--focus, #956513); outline-offset:4px; } @media(prefers-reduced-motion:reduce){.ds-primary{transition:none;}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Download button",
+      "kind": "button",
+      "description": "Bordered secondary action for a generated result.",
+      "html": "<button class=\"ds-download\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5\"/><path d=\"M4 16v5h16v-5\"/></svg>Download image</button>",
+      "css": ".ds-download{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--control-border, #7c9184);background:var(--surface, #ffffff);color:var(--text, #183c36);border-radius:6px;padding:11px 14px;min-height:44px;font-size:.8125rem;font-weight:600;cursor:pointer;transition:background 160ms ease;} .ds-download:hover:not(:disabled){background:var(--accent-soft, #d9e9e1);border-color:var(--accent, #20564b);} .ds-download:disabled{opacity:.5;cursor:not-allowed;} .ds-download:focus-visible { outline:3px solid var(--focus, #956513); outline-offset:4px; } @media(max-width:520px){.ds-download{width:100%;}} @media(prefers-reduced-motion:reduce){.ds-download{transition:none;}}",
+      "refersTo": "button-download"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "Underlined example-filling action.",
+      "html": "<button class=\"ds-text\">Try an example <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-text{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:8px;background:none;border:0;color:var(--text, #183c36);font-size:.8125rem;font-weight:600;min-height:44px;text-decoration:underline;text-decoration-color:var(--border, #bdcbc4);text-underline-offset:5px;cursor:pointer;} .ds-text svg{width:16px;} .ds-text:hover:not(:disabled){text-decoration-color:currentColor;} .ds-text:disabled{opacity:.5;cursor:not-allowed;} .ds-text:focus-visible { outline:3px solid var(--focus, #956513); outline-offset:4px; }",
+      "refersTo": "button-text"
+    },
+    {
+      "name": "Labeled field",
+      "kind": "input",
+      "description": "Visible label and white text field with a strong focus boundary.",
+      "html": "<label class=\"ds-field\">Event name<input placeholder=\"What?s the occasion?\" /></label>",
+      "css": ".ds-field{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:block;color:var(--text, #183c36);font-size:.875rem;font-weight:600;} .ds-field input{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:block;width:100%;margin-top:7px;background:var(--surface, #ffffff);border:1px solid var(--control-border, #7c9184);border-radius:6px;padding:12px 14px;font-size:1rem;font-weight:400;line-height:1.5;min-height:48px;color:var(--text, #183c36);caret-color:var(--accent, #20564b);transition:border-color 160ms ease;} .ds-field input::placeholder{color:#69776f;opacity:1;} .ds-field input:hover:not(:disabled){border-color:var(--text-muted, #566760);} .ds-field input:focus{border-color:var(--accent, #20564b);outline:2px solid var(--accent, #20564b);outline-offset:1px;} @media(prefers-reduced-motion:reduce){.ds-field input{transition:none;}}",
+      "refersTo": "field"
+    },
+    {
+      "name": "Style radio choice",
+      "kind": "custom",
+      "description": "Minimal Editorial type-study choice; native input controls selected and keyboard states.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"ds-style\" checked /><span class=\"ds-art\"><span class=\"ds-study\">Builders<br>After<br>Dark.</span></span><span class=\"ds-label\">Minimal Editorial<span class=\"ds-radio\"></span></span><span class=\"ds-hint\">Less, but considered.</span></label>",
+      "css": ".ds-choice{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:block;position:relative;width:140px;color:var(--text, #183c36);cursor:pointer;} .ds-choice input{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);} .ds-art{display:block;container-type:inline-size;aspect-ratio:1;overflow:hidden;border-radius:4px;background:var(--gallery, #e2e9e5);outline:2px solid transparent;outline-offset:3px;transition:outline-color 160ms ease;} .ds-study{display:block;height:100%;padding:14%;background:#f9faf6;color:#203c34;font-size:18cqw;line-height:.98;letter-spacing:-.04em;font-weight:750;} .ds-label{display:flex;justify-content:space-between;align-items:baseline;gap:4px;margin-top:12px;font-size:.8125rem;line-height:1.3;font-weight:650;} .ds-radio{width:13px;height:13px;flex:0 0 13px;border:1px solid var(--text-muted, #566760);border-radius:50%;align-self:center;} .ds-hint{display:block;margin-top:4px;color:var(--text-muted, #566760);font-size:.75rem;line-height:1.4;} .ds-choice:has(input:checked) .ds-art{outline-color:var(--accent, #20564b);} .ds-choice:has(input:checked) .ds-radio{border:4px solid var(--accent, #20564b);background:white;} .ds-choice:hover .ds-art{outline-color:var(--text-muted, #566760);} .ds-choice:has(input:focus-visible){outline:3px solid var(--focus, #956513);outline-offset:6px;border-radius:3px;} @media(prefers-reduced-motion:reduce){.ds-art{transition:none;}}"
+    },
+    {
+      "name": "Poster surround",
+      "kind": "custom",
+      "description": "Tonal gallery and soft paper elevation, illustrated with the implemented CSS type study.",
+      "html": "<div class=\"ds-gallery\"><div class=\"ds-mount\"><div class=\"ds-type\"><strong>Builders<br>After<br>Dark.</strong><span>Friday, 7 PM<br>Toronto</span></div></div></div>",
+      "css": ".ds-gallery{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);display:flex;justify-content:center;align-items:center;padding:30px 44px;background:var(--gallery, #e2e9e5);min-height:400px;border-radius:8px;} .ds-mount{width:100%;max-width:346px;aspect-ratio:2 / 3;background:white;box-shadow:0 12px 24px -10px #183c3650;} .ds-type{height:100%;padding:12%;display:flex;flex-direction:column;justify-content:space-between;background:#f9faf6;color:#203c34;} .ds-type strong{font-size:3.5rem;line-height:.98;letter-spacing:-.04em;font-weight:750;} .ds-type span{font-size:.875rem;line-height:1.6;border-top:1px solid currentColor;padding-top:16px;} @media(max-width:520px){.ds-gallery{padding:24px;min-height:0;}.ds-type strong{font-size:2.75rem;}}",
+      "refersTo": "gallery"
+    },
+    {
+      "name": "Generation error",
+      "kind": "custom",
+      "description": "Warm-toned inline error above the primary action.",
+      "html": "<p class=\"ds-error\" role=\"alert\">We could not generate your poster. Please try again.</p>",
+      "css": ".ds-error{font-family:var(--font-sans, \"Hanken Grotesk\", system-ui, sans-serif);color:var(--danger, #9d2d25);background:var(--danger-bg, #fff0ec);padding:14px;border-radius:6px;font-size:.875rem;line-height:1.5;margin:0 0 14px;}",
+      "refersTo": "error"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Exhibition Studio",
+    "overview": "Tonight gives colorful poster artwork room to lead inside a quiet, precise workspace. Cool mineral surfaces, deep teal text and actions, and compact grotesk typography make the controls feel familiar while the framed portrait provides the visual character.\n\nThis records implementation choices made within the authorized redesign. The palette and font are not exact choices prescribed by the user. Source evidence comes from `src/app/globals.css`, `src/app/layout.tsx`, and `src/components/poster-studio/PosterStudio.module.css` and `PosterStudio.tsx`. Rendered desktop and mobile verification remains outstanding because browser and native control were unavailable; these are extracted source rules, not screenshot-verified measurements.",
+    "keyCharacteristics": [
+      "Cool mineral ground with a deep teal brand bar and primary action.",
+      "Hanken Grotesk throughout, with tight display tracking and readable form text.",
+      "Flat controls and a softly elevated portrait mount.",
+      "Clearly labeled artwork references and honest result, loading, and error states."
+    ],
+    "rules": [
+      {
+        "name": "The Artwork Color Rule",
+        "body": "Keep the surrounding workspace quiet so the poster can carry saturated color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper Lift Rule",
+        "body": "Reserve the existing soft elevation for the poster mount; controls remain flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the mineral workspace quiet around colorful artwork.",
+      "**Do** use visible labels, native form controls, and distinct keyboard focus.",
+      "**Do** distinguish sample artwork, type studies, generated results, and loading states.",
+      "**Do** preserve the last successful artwork while reporting a generation error.",
+      "**Do** honor reduced-motion preferences for loading and scroll behavior."
+    ],
+    "donts": [
+      "**Don't** promote the artwork's colors or sample typography into application-wide tokens.",
+      "**Don't** add shadows to every control or round the portrait mount into a card.",
+      "**Don't** describe source-only responsive checks as rendered visual approval."
+    ]
+  }
+}
