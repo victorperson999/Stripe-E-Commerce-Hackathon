@@ -1,0 +1,51 @@
+{
+  "version": 4,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-10-31T00:29:52.728Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1UT4uOBBQbcsuWlR",
+    "projectId": "project_61Vfo8VIEGfxHZHme16VcSrk4mA8l9UAG6ML1UKICIZk",
+    "projectName": "tonight"
+  },
+  "providers": {
+    "vercel": {
+      "accountRequestId": "facctrq_61VfoLaofK3nx2BpW16VcSrk4mA8l9UAG6ML1UKICSgi",
+      "configuration": {},
+      "linkedAt": "2026-10-31T00:43:27.183Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-10-31T00:43:27.183Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "tonight": {
+      "configuration": {
+        "name": "tonight"
+      },
+      "createdAt": "2026-10-31T00:43:48.999Z",
+      "lastRevealedAt": "2026-10-31T00:43:49.525Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "tonight",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VfoLyKEDO8NneUm16VcSrk4mA8l9UAG6ML1UKICIXo",
+      "serviceId": "project"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-10-31T00:43:29.776Z",
+      "lastRevealedAt": "2026-10-31T00:43:30.777Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VfoLglyFtHEt9j216VcSrk4mA8l9UAG6ML1UKIC02q",
+      "serviceId": "hobby"
+    }
+  }
+}

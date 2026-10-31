@@ -1,5 +1,6 @@
 # Secrets
-.projects/state.local.json
+# The leaderboard requires state.json and state.local.json (identification metadata).
+# Keep credentials in the ignored .env files and .projects/vault below.
 *.pem
 
 # Dependencies
