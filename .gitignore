@@ -1,11 +1,14 @@
-<<<<<<< HEAD
 # Secrets
 .env
-.env*.local
+.env.*
+!.env.example
 .projects/state.local.json
+*.pem
 
 # Dependencies
 node_modules/
+.pnp
+.pnp.*
 
 # Next.js / build output
 .next/
@@ -14,6 +17,10 @@ build/
 next-env.d.ts
 *.tsbuildinfo
 
+# Testing / backend scratch output
+coverage/
+.backend-artifacts/
+
 # Vercel
 .vercel/
 
@@ -21,19 +28,3 @@ next-env.d.ts
 npm-debug.log*
 .DS_Store
 Thumbs.db
-
-# Misc
-*.pem
-.pnp
-.pnp.*
-coverage/
-=======
-.env
-.env.*
-!.env.example
-node_modules/
-.next/
-coverage/
-.backend-artifacts/
-*.tsbuildinfo
->>>>>>> origin/feat/ideogram-api
