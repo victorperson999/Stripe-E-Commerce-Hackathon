@@ -1,0 +1,12 @@
+.env
+.env.*
+.projects/
+.backend-artifacts/
+.agents/
+.claude/
+.cursor/
+.git/
+node_modules/
+.next/
+coverage/
+*.tsbuildinfo
