@@ -1,7 +1,4 @@
 # Secrets
-.env
-.env.*
-!.env.example
 .projects/state.local.json
 *.pem
 
@@ -28,3 +25,11 @@ coverage/
 npm-debug.log*
 .DS_Store
 Thumbs.db
+
+.projects/cache
+.projects/vault
+.projects/state.test.json
+.projects/state.local.test.json
+.env
+.env.*
+!.env.example

@@ -1,11 +1,12 @@
 # Tonight backend integration
 
-Backend branch: `feat/ideogram-api`. This implements the backend role from `idea.md`;
-the other teammate owns the Next.js scaffold, UI, shared frontend types and deployment.
+The backend originated on `feat/ideogram-api` and is merged with the frontend on
+`victorbranch`. This implements the backend role from `idea.md`; the other teammate
+owns the Next.js scaffold, UI, shared frontend types and deployment.
 
 ## Files and integration
 
-- `src/app/api/posters/route.ts`: App Router `POST /api/posters`, Node runtime, 120-second function duration.
+- `src/app/api/posters/route.ts`: App Router `POST /api/posters`, default Node runtime, 120-second function duration. Cache Components disallows an explicit `runtime` export.
 - `src/lib/server/poster-prompts.ts`: validated event input and three style prompts.
 - `src/lib/server/ideogram.ts`: server-only credential access, provider request and image retrieval.
 - Other `src/lib/server/poster-*` modules: bounded reads, safe errors and request handling.
@@ -135,14 +136,62 @@ image URLs.
   date/time and venue, with no extra field labels or description text. The model
   styled the supplied text in uppercase. Exact casing/lettering is not guaranteed.
 - Final sample: `.backend-artifacts/neon-builders-after-dark.png` (local, ignored).
-- Retro and minimal prompts are covered by automated tests, but have not been
-  checked with billable generations. The Next.js scaffold, application build and
-  deployed HTTP endpoint remain to be verified by integration with the UI owner.
+- The merged `victorbranch` app passes `npm run build`, including TypeScript.
+  The redundant route `runtime` export was removed because Next.js 16.4.3 Cache
+  Components requires the default Node runtime and rejects that export. The
+  120-second duration remains configured. Dependency installation generated
+  `package-lock.json` for reproducible installs with `npm ci`.
+- A production server started with `npm run start -- --hostname 127.0.0.1` served
+  the form at HTTP 200. The real `/api/posters` endpoint returned 405 for GET and
+  400/INVALID_INPUT for an unsupported style.
+- One additional authorized Retro generation through the frontend API client and
+  the running HTTP endpoint completed in 10.0 seconds (1,225,651-byte PNG, quoted
+  US$0.06). The frontend download function produced a Blob byte-for-byte identical
+  to the preview data URL. The download test used a DOM stand-in, not a browser.
+  Visual inspection of `.backend-artifacts/integrated-retro-poster.png` confirmed
+  readable title, date/time and venue. Minimal has automated coverage only.
+- Browser control was unavailable during this review. Actual button interactions,
+  browser file saving, responsive layout and phone testing remain unverified.
 
-After the scaffold is merged, run its typecheck/build, then send the example
-request to the actual local and deployed `/api/posters`. Verify that the displayed
-and downloaded poster match, mobile errors remain readable, and the deployment
-supports the configured function timeout. Generated lettering needs human review.
+## Deployment handoff
+
+The Stripe Project `tonight` has a Vercel Hobby plan and the `tonight` hosting
+project provisioned through Stripe Projects. Do not create duplicate resources.
+
+Production URL: https://tonight-cyan.vercel.app
+
+Vercel reports the deployment Ready after a successful production build.
+`IDEOGRAM_API_KEY` is configured directly in Vercel as a Secret for Production
+and Preview. `NEXT_PUBLIC_POSTER_MOCK` is unset. Vercel authentication protection
+is disabled so visitors can open the app. Fluid Compute is enabled, and its
+documented Hobby duration limit covers the route's 120-second setting.
+
+The deployment was uploaded from this local workspace using the Vercel CLI.
+Git integration is not connected; pushing to GitHub does not automatically
+redeploy this project yet. `.vercelignore` excludes local credentials, Stripe
+state, agent configuration and test artifacts from deployment uploads.
+
+Later environment variable changes require a new deployment.
+
+### Live deployment verification
+
+- The public homepage returned HTTP 200 and contained the expected form labels.
+- The hosted API returned HTTP 405 for GET and HTTP 400/INVALID_INPUT for an
+  unsupported style.
+- One authorized Minimal generation through the frontend API client against the
+  public URL succeeded in 8.5 seconds. The quote was US$0.06; the returned PNG
+  was 500,890 bytes. This also verifies the deployed server can use its Ideogram
+  credential.
+- The frontend download function produced bytes identical to the preview image
+  (SHA-256 `74f6d4c4c2fa734e48f89a951107d652c68efcc0522205230a61470bc5afc09b`).
+  This check used a DOM stand-in, not a browser download.
+- Visual review of `.backend-artifacts/live-minimal-poster.png` found a readable
+  title, date/time and venue, but also unwanted garbled small labels and extra
+  description text. Generated typography remains a quality limitation.
+- Browser control was unavailable. Actual browser clicks, file saving and phone
+  layout still need verification. Results are saved locally in the ignored
+  `.backend-artifacts/live-check.json` file.
 
 References: [Ideogram 3.0 API](https://developer.ideogram.ai/v2/api-reference/images/generate/ideogram-3),
-[Vercel function limits](https://vercel.com/docs/functions/limitations).
+[Vercel function limits](https://vercel.com/docs/functions/limitations),
+[Vercel environment variables](https://vercel.com/docs/environment-variables).

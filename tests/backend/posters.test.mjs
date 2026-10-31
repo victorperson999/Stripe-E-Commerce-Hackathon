@@ -5,7 +5,7 @@ import { validatePosterInput, buildPosterPrompt } from "../../src/lib/server/pos
 import { generatePoster, getIdeogramKey, MAX_IMAGE_BYTES, IDEOGRAM_ENDPOINT } from "../../src/lib/server/ideogram.ts";
 import { PosterError } from "../../src/lib/server/poster-errors.ts";
 import { createPosterHandler, createDemoLimiter } from "../../src/lib/server/poster-handler.ts";
-import { POST, runtime, maxDuration } from "../../src/app/api/posters/route.ts";
+import { POST, maxDuration } from "../../src/app/api/posters/route.ts";
 
 const event = {
   title: "Builders After Dark", dateTimeText: "Friday, 7 PM", venue: "Toronto",
@@ -204,6 +204,6 @@ test("demo limiter bounds concurrency and starts per minute, then recovers", () 
   now = 60_000; acquire()();
 });
 
-test("Next.js route exports a callable handler and Node runtime settings", () => {
-  assert.equal(typeof POST, "function"); assert.equal(runtime, "nodejs"); assert.equal(maxDuration, 120);
+test("Next.js route exports a callable handler and generation duration", () => {
+  assert.equal(typeof POST, "function"); assert.equal(maxDuration, 120);
 });

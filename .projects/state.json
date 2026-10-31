@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "providers": {
+    "vercel": {
+      "name": "Vercel"
+    }
+  },
+  "resources": {
+    "tonight": {
+      "livemode": true,
+      "name": "tonight",
+      "providerName": "Vercel",
+      "serviceId": "project"
+    },
+    "vercel-plan": {
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    }
+  }
+}
